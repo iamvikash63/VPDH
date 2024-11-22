@@ -12,7 +12,7 @@ body{
 
 .nav-bar{
     height: 50px;
-  
+   background-color: #4E4E4E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,10 +22,10 @@ body{
 }
 .logo{
     font-size: x-large;
-    color: black;
+    color: #D74397;
 }
 .logo a{
-    color: black;
+  color: white;  
 }
 .logo a:hover{
   border-bottom: 3px solid #4E4E4E;
@@ -36,6 +36,7 @@ body{
     display: flex;
     font-weight: 400;
     align-items: center; 
+ 
 
 }
 
@@ -46,7 +47,7 @@ body{
 }
 .sec a{
 color: black;
-
+color: azure;
 }
 .a:hover{
   border-bottom: 3px solid #4E4E4E;
@@ -63,8 +64,8 @@ color: black;
 
 .main{
     height: 400px;
-  
-  
+  color: black;
+   background-color: white;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -134,6 +135,7 @@ padding: 5px;
     padding: 10px;
     font-weight: 500;
   max-width: 700px;
+
 }
 .main i{
     font-size: larger;
@@ -142,7 +144,7 @@ padding: 5px;
 }
 
 span{
-    color:purple;
+    color: blue;
 }
 
 .main1{
@@ -158,7 +160,7 @@ span{
   padding-top: 10px;
 }
 .social a{
-color: purple;
+color: #4b4453;
 padding-top: 10px;
 padding-bottom: 10px;
 transition: 1s;
@@ -181,7 +183,7 @@ transition: 1s;
 .box3{
 
   height: 300px;
-  background-color:#4E4E4E;
+  background-color:white;
   display: flex;
   justify-content: space-between;
 padding: 70px;
@@ -232,9 +234,9 @@ border-radius: 20px;
 }
 .About-me{
 max-width: 60%;
-background-color:#e2dede ;
+
 padding: 20px;
-  color: black;
+  color:#4b4453;
   border-radius: 20px;
 }
 
@@ -246,7 +248,7 @@ color: black;
 }
 .heading{
   padding: 10px;
-  background-color: #e2dede;
+  background-color: white;
   text-align: center;
 }
 
@@ -288,12 +290,14 @@ height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .Skill a{
-  background-color: #e2dede;
+  background-color:#4b4453;
   padding: 8px;
- 
-  color: black;
+
+
+  color: white;
   border-radius: 10px;
   font-size: larger;
 }
@@ -307,7 +311,7 @@ height: 40px;
  font-size: 20px;
 }
 
-.div-box5{
+/* .div-box5{
   height: 750px;
  
 justify-content: center;
@@ -383,7 +387,7 @@ color: white;
 }
 .ex2 img{
 width:  70px;
-}
+} */
 
 
 .testmonials{
@@ -401,9 +405,9 @@ flex-direction: column ;
   padding: 10px;
 }
 .testmo-hd a{
-  color: black;
+  color: white;
   border-radius: 10px;
-  background-color: #e2dede;
+  background-color:#4b4453;
   padding: 5px;
 }
 .testmo-hd a:hover{
@@ -417,8 +421,9 @@ flex-direction: column ;
   align-items: center;
   justify-content: space-evenly;
   
-  gap: 15px;
+  gap: 30px;
  padding: 50px;
+ background-color: #4b4453;
 }
 
 .content-test:hover{
@@ -461,8 +466,8 @@ padding: 30px 30px 30px 30px;
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #4E4E4E;
-  color: azure;
+  background-color: white;
+color:#4E4E4E;
   
 }
 
@@ -511,7 +516,7 @@ footer p{
 }
 
 .projects-hd{
-  height: 70px;
+  height: 150px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -525,29 +530,48 @@ footer p{
   border-radius: 20px;
   color: white;
 }
-.projects-hd h4{
+.projects-hd h3{
   margin-top: 10px;
 }
 .projects{
- max-height: max-content;
+max-height: max-content;
 
-
+overflow: hidden;
 }
 .projects-container{
   display: flex;
-  height: 500px;
-  justify-content: center;
+  height: 350px;
+  justify-content: space-evenly;
   align-items: center;
+  
 }
 @media (max-width: 826px) {
   .projects-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: 120vh;
   }
   
+  
+  
 }
+@media (min-width: 450px) {
+  .projects-img img{
+height: 300px;
+  }
+}
+.projects-content ul{
+  display: flex;
+  list-style: none;
+  
+}
+.projects-content li{
+  padding: 20px;
+ 
+}
+
 .projects-img {
-  height: 350px;
+  height: 200px;
 background-color: #4E4E4E;
   align-items: center;
   justify-content: center;
@@ -556,7 +580,7 @@ background-color: #4E4E4E;
   border-radius: 10px;
 }
 .projects-img img{
-  height: 300px;
+  height: 150px;
 }
 .projects-content{
   height: 300px;
@@ -569,7 +593,9 @@ padding: 10px;
 }
 .projects-content  a {
   padding: 10px;
-  color: #4E4E4E;
+  color: white;
+  background-color: #4b4453;
+  border-radius: 20px;
   }
   .projects-content p {
     padding: 10px;
@@ -579,10 +605,10 @@ padding: 10px;
 font-weight: 500;
 color: #4E4E4E;
 }
-.projects-content a i{
+.projects-content i{
  font-size: larger;
- padding: 20px;
-color: purple;
+ padding: 10px;
+color: white;
 
  
 }

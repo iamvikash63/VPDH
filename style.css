@@ -1,0 +1,588 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+
+
+}
+
+.nav-bar{
+    height: 50px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px 20px 0px 20px;
+    font-weight: 600;
+}
+.logo{
+    font-size: x-large;
+    color: black;
+}
+.logo a{
+    color: black;
+}
+.logo a:hover{
+  border-bottom: 3px solid #4E4E4E;
+}
+.Nav-sec{
+    height: 50px;
+   gap: 12px;
+    display: flex;
+    font-weight: 400;
+    align-items: center; 
+
+}
+
+.sec i{
+    font-size: larger;
+    color: black;
+  
+}
+.sec a{
+color: black;
+
+}
+.a:hover{
+  border-bottom: 3px solid #4E4E4E;
+
+}
+.CV{
+   background-color:aliceblue;
+   padding: 10px;
+   border-radius: 7px;
+   box-shadow: 1px 2px 1px black;
+    color: purple;
+}
+
+
+.main{
+    height: 400px;
+  
+  
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   padding: 50px;
+ gap: 10px;
+}
+@media (max-width: 728px) {
+    .main {
+      flex-direction: column;
+      height: 600px;
+  
+    }
+   
+  }
+  @media (max-width: 647px) {
+    .main {
+      flex-direction: column;
+      height: 650px;
+  
+    }
+  }
+  @media (max-width: 485px) {
+    .main {
+      flex-direction: column;
+      height: 750px;
+  
+    }
+  }
+  @media (max-width: 418px) {
+    .main {
+      flex-direction: column;
+      height: 850px;
+  
+    }
+  }
+  @media (max-width: 375px) {
+    .main {
+     
+      height: 900px;
+  
+    }
+    .main2 img{
+     width: 40px;
+    }
+  }
+  @media (max-width: 325px) {
+    .main {
+     
+      height: 1000px;
+  
+    }
+  }
+  @media (max-width: 589px) {
+    .sec {
+     
+    display: none;
+  
+    }
+  }
+
+.main h1{
+font-size: 60px;
+padding: 5px;
+}
+.main p{
+    padding: 10px;
+    font-weight: 500;
+  max-width: 700px;
+}
+.main i{
+    font-size: larger;
+    padding: 5px;
+   
+}
+
+span{
+    color:purple;
+}
+
+.main1{
+ 
+}
+.main2 img{
+    height: 300px;
+    width: 300px; 
+  border-radius: 10px;
+   
+}
+.social{
+  padding-top: 10px;
+}
+.social a{
+color: purple;
+padding-top: 10px;
+padding-bottom: 10px;
+transition: 1s;
+}
+.avil-i{
+  color: greenyellow;
+  padding-top: 5px;
+ 
+}
+.avai-i i{
+  font-size: 5px;
+}
+.social a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  padding: 10px;
+  border-radius: 8px 10px 8px 10px;
+}
+
+.box3{
+
+  height: 300px;
+  background-color:#4E4E4E;
+  display: flex;
+  justify-content: space-between;
+padding: 70px;
+
+  align-items: center;
+  overflow: hidden;
+}
+@media (max-width: 898px) {
+  .box3 {
+
+   height: 900px;
+ flex-direction: column;
+padding: 0%;
+  }
+.About-me{
+  padding: 0%;
+}
+}
+@media (max-width: 385px) {
+  .box3 {
+
+  
+ flex-direction: column;
+padding: 0%;
+  }
+.About-me{
+  height: 400px;
+  padding: 0%;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+.pic{
+  margin-top: 30px;
+}
+}
+.pic{
+width: 600px;
+
+  align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.pic img{
+  width: 300px;
+box-shadow: 10px 10px 5px rgb(238, 230, 215);
+border-radius: 20px;
+}
+.About-me{
+max-width: 60%;
+background-color:#e2dede ;
+padding: 20px;
+  color: black;
+  border-radius: 20px;
+}
+
+
+.About-me p{
+  padding: 5px;
+font-weight: 500;
+color: black;
+}
+.heading{
+  padding: 10px;
+  background-color: #e2dede;
+  text-align: center;
+}
+
+.box4{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75px;
+  overflow: hidden;
+ 
+}
+
+.logos{
+  height: 40px;
+}
+.logos-com img{
+height: 40px;
+}
+.box4-hd{
+ 
+  overflow: hidden;
+  max-height: max-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+@media (max-width:375px){
+  .box4-hd{
+    height: 200px;
+  }
+}
+.Skill{
+ 
+  overflow: hidden;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Skill a{
+  background-color: #e2dede;
+  padding: 8px;
+ 
+  color: black;
+  border-radius: 10px;
+  font-size: larger;
+}
+.Skill a:hover{
+  background-color: purple;
+  color: white;
+}
+.box4-hd h3{
+ padding: 10px;
+ font-weight: 900;
+ font-size: 20px;
+}
+
+.div-box5{
+  height: 750px;
+ 
+justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.experiance-hd{
+
+height: 100px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+background-color: #e2dede;
+}
+.experiance-hd a{
+background-color: white;
+padding: 7px;
+border-radius: 10px;
+color: black;
+}
+.experiance-hd a:hover{
+background-color: purple;
+color: white;
+}
+.experiance-hd h3{
+  padding: 5px;
+}
+.experiance{
+  display: flex;
+  height: 150px;
+
+  justify-content: center;
+ gap: 100px;
+ border-radius: 10px;
+ background-color: white;
+ padding: 10px;
+
+}
+
+.exp{
+  
+  justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    gap: 30px;
+    overflow: hidden;
+    background-color:#4E4E4E;
+    padding: 20px;
+}
+
+@media (max-width:585px) {
+  .experiance{
+    gap: 0%;
+    height: 300px;
+  }
+  .div-box5{
+    height: 950px;
+  }
+  .exp{
+    height: 800px;
+  }
+  .experiance-hd {
+    height: 100px;
+  }
+}
+.ex1 img{
+  height: 20px;
+  padding-top: 3px;
+}
+.ex2 img{
+width:  70px;
+}
+
+
+.testmonials{
+  max-height: max-content;
+}
+.testmo-hd{
+max-height: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+display: flex;
+flex-direction: column ;
+}
+.testmo-hd h3{
+  padding: 10px;
+}
+.testmo-hd a{
+  color: black;
+  border-radius: 10px;
+  background-color: #e2dede;
+  padding: 5px;
+}
+.testmo-hd a:hover{
+  background-color: purple;
+  color: white;
+}
+.container-testm{
+  max-height: 500px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  gap: 15px;
+ padding: 50px;
+}
+
+.content-test:hover{
+  background-color: #4E4E4E;
+  color: azure;
+}
+
+.content-test{
+max-height: max-content;
+  text-align: center;
+  background-color: #e2dede;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.content-test img{
+padding: 30px 30px 30px 30px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.content-test p{
+  padding: 0px 20px 20px 20px;
+}
+
+@media (max-width: 560px) {
+  .container-testm{
+    overflow:auto;
+  }
+}
+
+.conatct{
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #4E4E4E;
+  color: azure;
+  
+}
+
+.contact-hd{
+  max-height: max-content;
+}
+.contact-hd a{
+padding: 10px;
+font-size: larger;
+font-weight: 500;
+color: black;
+background-color: white;
+border-radius: 15px;
+}
+
+.contact-hd a:hover{
+  background-color: purple;
+  color: white;
+}
+
+.contact-hd h5{
+  padding: 20px;
+  font-size: larger;
+  max-width: 500px;
+
+}
+
+.conatct  i{
+padding: 10px;
+color: white;
+}
+
+.footer-div{
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+footer p{
+  font-size: medium;
+
+}
+
+.projects-hd{
+  height: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.projects-hd a{
+  padding: 10px;
+  background-color: #4E4E4E;
+  border-radius: 20px;
+  color: white;
+}
+.projects-hd h4{
+  margin-top: 10px;
+}
+.projects{
+ max-height: max-content;
+
+
+}
+.projects-container{
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 826px) {
+  .projects-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+}
+.projects-img {
+  height: 350px;
+background-color: #4E4E4E;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+.projects-img img{
+  height: 300px;
+}
+.projects-content{
+  height: 300px;
+  max-width: 400px;
+  padding: 20px;
+}
+.projects-content h2 {
+padding: 10px;
+
+}
+.projects-content  a {
+  padding: 10px;
+  color: #4E4E4E;
+  }
+  .projects-content p {
+    padding: 10px;
+    
+    }
+.projects-content a p{
+font-weight: 500;
+color: #4E4E4E;
+}
+.projects-content a i{
+ font-size: larger;
+ padding: 20px;
+color: purple;
+
+ 
+}

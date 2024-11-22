@@ -456,6 +456,7 @@ padding: 30px 30px 30px 30px;
 @media (max-width: 560px) {
   .container-testm{
     overflow:auto;
+      gap:5px;
   }
 }
 
@@ -497,7 +498,7 @@ border-radius: 15px;
 
 .conatct  i{
 padding: 10px;
-color: white;
+color: black;
 }
 
 .footer-div{

@@ -5,14 +5,14 @@
     text-decoration: none;
 }
 body{
-    background-color: azure;
+    background-color: black;
 
 
 }
 
 .nav-bar{
     height: 50px;
-   background-color: #4E4E4E;
+   background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ body{
     color: #D74397;
 }
 .logo a{
-  color: white;  
+  color: red;  
 }
 .logo a:hover{
   border-bottom: 3px solid #4E4E4E;
@@ -54,18 +54,18 @@ color: azure;
 
 }
 .CV{
-   background-color:aliceblue;
+   background-color:red;
    padding: 10px;
    border-radius: 7px;
    box-shadow: 1px 2px 1px black;
-    color: purple;
+    color: white;
 }
 
 
 .main{
     height: 400px;
-  color: black;
-   background-color: white;
+  color: white;
+   background-color: black;
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
@@ -140,11 +140,11 @@ padding: 5px;
 .main i{
     font-size: larger;
     padding: 5px;
-   color: purple;
+   color: red;
 }
 
 span{
-    color: blue;
+    color: red;
 }
 
 .main1{
@@ -184,7 +184,7 @@ transition: 1s;
 .box3{
 
   height: 300px;
-  background-color:white;
+  background-color:black;
   display: flex;
   justify-content: space-between;
 padding: 70px;
@@ -239,7 +239,7 @@ border-radius: 20px;
 max-width: 60%;
 
 padding: 20px;
-  color:#4b4453;
+  color:white;
   border-radius: 20px;
 }
 
@@ -247,12 +247,12 @@ padding: 20px;
 .About-me p{
   padding: 5px;
 font-weight: 500;
-color: black;
+color: white;
 }
 .heading{
   padding: 10px;
-  background-color: white;
-  color: blue;
+  background-color: red;
+  color: black;
   text-align: center;
 }
 
@@ -297,7 +297,7 @@ height: 40px;
 
 }
 .Skill a{
-  background-color:#4b4453;
+  background-color:red;
   padding: 8px;
 
 
@@ -411,7 +411,7 @@ flex-direction: column ;
 .testmo-hd a{
   color: white;
   border-radius: 10px;
-  background-color:#4b4453;
+  background-color:red;
   padding: 5px;
   font-size: larger;
 }
@@ -474,8 +474,8 @@ padding: 30px 30px 30px 30px;
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: white;
-color:#4E4E4E;
+  background-color: black;
+color:white;
   
 }
 
@@ -492,7 +492,7 @@ border-radius: 15px;
 }
 
 .contact-hd a:hover{
-  background-color: purple;
+  background-color: red;
   color: white;
 }
 
@@ -516,8 +516,9 @@ color: blue;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-background-color:#4E4E4E;
-color: azure;
+background-color:black;
+    border-top: 1px solid red;
+color: white;
 }
 footer p{
   font-size: medium;
@@ -535,7 +536,7 @@ footer p{
 }
 .projects-hd a{
   padding: 10px;
-  background-color: #4E4E4E;
+  background-color: black;
   border-radius: 20px;
   color: white;
   font-size: larger;
@@ -585,7 +586,7 @@ overflow: hidden;
 .projects-content ul{
   display: flex;
   list-style: none;
-  
+  color: white;
 }
 .projects-content li{
   padding: 20px;
@@ -595,7 +596,7 @@ overflow: hidden;
 .projects-img {
   height: 300px;
   
-background-color: #4E4E4E;
+background-color: red;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -613,7 +614,7 @@ background-color: #4E4E4E;
 }
 .projects-content h2 {
 padding: 10px;
-
+color: white;
 }
 .projects-content  a {
   padding: 10px;
@@ -623,7 +624,7 @@ padding: 10px;
   }
   .projects-content p {
     padding: 10px;
-    
+    color: white;
     }
 .projects-content a p{
 font-weight: 500;

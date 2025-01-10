@@ -65,7 +65,8 @@ color: azure;
 .main{
     height: 400px;
   color: white;
-   background-color: black;
+ background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 37%, rgba(36,0,0,1) 46%, rgba(255,0,0,1) 100%, rgba(255,0,0,1) 100%);
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;

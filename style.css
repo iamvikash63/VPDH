@@ -61,7 +61,10 @@ color: azure;
    
     color: white;
 }
-
+.menu i{
+  color: white;
+  font-size: 25px;
+}
 
 .main{
     height: 410px;
@@ -88,6 +91,11 @@ color: azure;
       flex-direction: column;
       height: 650px;
   
+    }
+  }
+ @media (min-width: 418px) {
+    .menu i{
+      display: none;
     }
   }
   @media (max-width: 485px) {

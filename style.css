@@ -25,7 +25,8 @@ body{
     color: #D74397;
 }
 .logo a{
-  color: red;  
+  color: red;
+    font-family:Verdana;
 }
 .logo a:hover{
   border-bottom: 3px solid #4E4E4E;

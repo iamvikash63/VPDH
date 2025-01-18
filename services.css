@@ -7,6 +7,7 @@ overflow: hidden;
 align-items: center;
 gap: 20px;
 height: max-content;
+    color:black;
 
 }
 
@@ -32,6 +33,8 @@ height: 50px;
     transition: 1s;
 height: 300px;
 width: 250px;
+    cursor: pointer;
+background-color: azure;
 }
 .sr1:hover{
     background-color: red;

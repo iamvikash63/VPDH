@@ -1,7 +1,5 @@
 const textArray = [
-    "Hi, I'm Vikash Pal.",
-    "Frontend Web Developer! ",
-    "Upcoming Software Engineer.",
+    "Frontend Developer!",
     "Let's Collaborate.",
   ];
   const typingSpeed = 100; // Milliseconds per character
